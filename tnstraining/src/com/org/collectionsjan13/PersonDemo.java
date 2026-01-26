@@ -6,13 +6,13 @@ public class PersonDemo {
 
 	public static void main(String[] args) {
 		List <person>ob = new ArrayList<person>();
-		person p = new person("Ashwitha", "hyd");
+		person p = new person("Durga", "hyd");
 		ob.add(p);
-		p = new person("Mythri", "delhi");
+		p = new person("bhavani", "delhi");
 		ob.add(p);
-		p = new person("Sri", "banglore");
+		p = new person("Sree", "banglore");
 		ob.add(p);
-		p = new person("Jhon", "banglore");
+		p = new person("charan", "nalgonda");
 		ob.add(p);
 		System.out.println(ob);
 		System.out.println("sorting names");
